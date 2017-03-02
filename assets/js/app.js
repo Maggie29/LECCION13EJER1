@@ -1,3 +1,4 @@
+var result = document.getElementById("result")
 var formulario = document.getElementById("enviarFormulario")
 formulario.onclick = function(){
   var nombre=document.getElementById("name").value;
