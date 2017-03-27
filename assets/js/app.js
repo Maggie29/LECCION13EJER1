@@ -11,5 +11,7 @@ formulario.onclick = function(){
                 "<li>DNI: "+numDni+"</li>"+
                 "<li>DIRECCION: "+direccion+"</li>"+
                 "</ul>";
+result.classList.add("div-result");
+
 result.innerHTML = lista;
 }
